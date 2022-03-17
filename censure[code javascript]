@@ -1,0 +1,23 @@
+let sentence = "...."
+
+function censure(word , sentences){
+    for(let i = 0 ; i<=phrase.length-mot.length ; i++ ){
+        if(word== sentences.slice(i , i+word.length)){
+      
+ let stars = ""
+ for(let i = 0 ; i<4 ; i++ ){
+ stars += "*"
+
+
+            sentences = sentence.slice(0 , i)+stars+sentence.slice(i+word.length , sentence.length)
+        }
+    }; 
+}
+return sentence ; 
+}
+
+console.log(censure("cour" , sentence));
+
+
+
+
