@@ -1,6 +1,13 @@
+
+/* Write here your sentence */
+
+
 let sentence = "...."
 
-function censure(word , sentences){
+
+/* the function CENSURE*/ 
+
+  function censure(word , sentences){
     for(let i = 0 ; i<=phrase.length-mot.length ; i++ ){
         if(word== sentences.slice(i , i+word.length)){
       
@@ -16,7 +23,9 @@ function censure(word , sentences){
 return sentence ; 
 }
 
-console.log(censure("cour" , sentence));
+/* You can chose your censure word , and change "word" by one you choose 
+
+console.log(censure("word" , sentence));
 
 
 
